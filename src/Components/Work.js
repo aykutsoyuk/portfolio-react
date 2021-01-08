@@ -1,9 +1,10 @@
 import React from 'react'
+import "../Styles/Work.css";
 
 const Work = () => {
     return (
         <div>
-            Work
+            <span style={{ fontSize: "20px" }}>Work</span>
         </div>
     )
 }

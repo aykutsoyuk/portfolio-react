@@ -1,0 +1,21 @@
+.about__main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume-link {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #fcfcfc;
+    color: #ff6b6b;
+    border: 2px solid #ff6b6b;
+    border-radius: 20px;
+    transition: ease 0.3s;
+}
+
+.resume-link:hover {
+    background-color: #ff6b6b;
+    color: #fcfcfc;
+}

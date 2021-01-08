@@ -45,19 +45,19 @@ function App() {
           <div className="footer">
             <div className="links">
             <a className="link" href="https://www.linkedin.com/in/aykut-s%C3%B6y%C3%BCk-b142a1a1/" target="_blank" alt="Linkedin">
-              <Linkedin style={{ fill: "#424b54", width: "50px", height: "50px" }} />
+              <Linkedin className="link__logo" />
             </a>
             <a className="link" href="https://github.com/aykutsoyuk" target="_blank" alt="Github">
-              <Github style={{ fill: "#424b54", width: "50px", height: "50px" }} />
+              <Github className="link__logo" />
             </a>
             <a className="link" href="mailto:aykutsoyuk@gmail.com" target="_blank" alt="Email">
-              <Email style={{ fill: "#424b54", width: "50px", height: "50px" }} />
+              <Email className="link__logo" />
             </a>
             <a className="link" href="https://github.com/aykutsoyuk/portfolio-react" target="_blank" alt="Source Code">
-              <Coding style={{ fill: "#424b54", width: "50px", height: "50px" }} />
+              <Coding className="link__logo" />
             </a>
             </div>
-            <span style={{ color: "#424b5479" }}>© 2020, Aykut Söyük</span>
+            <span style={{ color: "#424b5479", fontSize: "16px" }}>© 2020, Aykut Söyük</span>
           </div>
         </div>
       </div>
